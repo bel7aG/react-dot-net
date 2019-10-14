@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />  //dotnet add reference ../Domain
+    <ProjectReference Include="..\Persistance\Persistance.csproj" /> //dotnet add reference ../Persistance
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
